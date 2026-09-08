@@ -1,8 +1,8 @@
-# AI Strategy One-Pager - Juno Automated Prioritization
+# AI Strategy One-Pager - Watchlist Recaps
 
 ## 1. Problem & Workflow
 
-Watchlist Product Recaps
+Watchlist Recaps
 Problem: Customer engagement with the Watchlist has fallen off, as competitors offer similar products.
 Prevention: Using our proprietary information and data sources, introducing a recap feature briefs customers on market moves that matter to them, and will keep them engaging weekly.
 

@@ -47,6 +47,8 @@ No notify_stakeholder (review/edit) for unsuccessful recaps due to time constrai
 
 No direct autopublish to website around frontend coding of JSON for placement to ensure design system and accessibility standards are met, mobile rendering is optimized, and no cumulative layout shift is introduced.
 
+ If a critical output error is identified post-publish, PM escalates to engineering to immediately mark the published JSON file as rejected from frontend display.
+
 ## 03 Loop · AI Costs & Latency
 
 **Turn ceiling and escalation**

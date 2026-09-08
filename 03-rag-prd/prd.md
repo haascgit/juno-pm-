@@ -13,7 +13,7 @@ RocketShip PMs need evidence-based prioritisation. Juno reads the strategy and t
 | 01 Context | Required: Watchlist Product Recaps One-Pager (the M2 deliverable, the single authority) +  (a) company watchlist database NASDAQ symbols… |
 | 02 Tools | Company watchlist database NASDAQ symbols (query) - READ GraphQL market data sbfinancials (query) - READ Pubedit database article symbol (query) |
 | 03 Loop | Once weekly run begins at scheduled start time 6pm ET each Friday. Hourly reattempts made for connectivity failures for a total period not to exceed 24 hours from run start.|
-| 04 Memory | Per week system remembers per symbol outputs of data and news synthesized so save cost of querying per watchlist where symbols span… |
+| 04 Memory | Per week system remembers per symbol outputs of data and news synthesized so save cost of querying per watchlist where symbols span multiple lists.|
 | 05 Permissions | read auto · draft auto · write auto · send auto |
 | 06 Verification | Data and news are checked against one another before news is used in summary. Every news source must be cited with URL linking. |
 
@@ -59,7 +59,7 @@ Frontend web configuration to read JSON file for rendering successful records on
 
 **Latency and cost target**
 
-Top-K = 8 retrieval segments per prioritization run. p95 latency target < 3s end-to-end (for GraphQL query data + article synthesis). At our $0.03/1k token blended cost, this lands at ~$0.07 per Watchlist Recap - acceptable for weekly run.
+P95 latency target < 3s end-to-end (for GraphQL query data + article synthesis). At our $0.03/1k token blended cost, this lands at ~$0.07 per Watchlist Recap - acceptable for weekly run.
 
 ## 04 Memory · Data Requirements
 

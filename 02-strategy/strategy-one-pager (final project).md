@@ -25,5 +25,5 @@ Risk: if the data volatility is high during the week, the AI might output contra
 
 ## 6. V1 Scope
 
-In: Watchlist with publicly traded stocks on NYSE and Nasdaq stock exchanges.
+In: Watchlist with publicly traded stocks on Nasdaq stock exchanges.
 Out: (1) Global market coverage, (2) non-stock asset types (cryptocurrencies, bonds, funds, futures)

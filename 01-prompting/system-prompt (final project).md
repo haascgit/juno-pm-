@@ -1,4 +1,4 @@
-# System Prompt · Juno
+# System Prompt · Watchlist Recaps
 
 ## Role & objective
 

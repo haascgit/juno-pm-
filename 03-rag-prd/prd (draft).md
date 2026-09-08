@@ -16,7 +16,7 @@ A mid-sized model uses a vector DB to retrieve only the most relevant segments p
 
 ## Retrieval requirements (RAG)
 
-- **Sources:** (a) company watchlist database, (b) licensed market data GraphQL sbfinancials query, (c) proprietary editorial articles in pubedit database
+**Sources:** (a) company watchlist database, (b) licensed market data GraphQL sbfinancials query, (c) proprietary editorial articles in pubedit database
 
 Quantity: Watchlist database query 1 table with 2 average million records, 1 GraphQL query to retrieve the data, 1 query for news publish through average 1500 records. 
 Why: The database queries are necessary to get the current list for customer value. For this reason, the recap is weekly instead of daily or intraday.

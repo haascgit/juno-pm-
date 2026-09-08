@@ -11,7 +11,7 @@ RocketShip PMs need evidence-based prioritisation. Juno reads the strategy and t
 | Surface | Specification |
 |---|---|
 | 01 Context | Required: Watchlist Product Recaps One-Pager (the M2 deliverable, the single authority) +  (a) company watchlist database NASDAQ symbols… |
-| 02 Tools | Company watchlist database NASDAQ symbols (query) - READ GraphQL market data sbfinancials (query) - READ Pubedit database article symbol… |
+| 02 Tools | Company watchlist database NASDAQ symbols (query) - READ GraphQL market data sbfinancials (query) - READ Pubedit database article symbol (query) |
 | 03 Loop | Once weekly run begins at scheduled start time. 23 subsequent hourly reattempts made for connectivity failures for a total period not to… |
 | 04 Memory | Per week system remembers per symbol outputs of data and news synthesized so save cost of querying per watchlist where symbols span… |
 | 05 Permissions | read auto · draft auto · write auto · send auto |
